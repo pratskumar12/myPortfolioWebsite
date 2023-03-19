@@ -1,0 +1,93 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "HOME"
+theme = "personal-web"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Hi, I'm Pratik 👋"
+  sub = "I'm a Software  Developer and Problem Solver"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio']
+
+[params.notFound]
+  gopher = "/images/gopher.png"
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = ''
+  gradientOverlay = ''
+  logo = "/images/pratik.jpg"
+
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  twitter = "https://twitter.com/iampratik1297"
+  linkedin = "https://www.linkedin.com/in/pratik-kumar-314567132/"
+  instagram = "https://www.instagram.com/pratik_prats/"
+  facebook = "https://www.facebook.com/pratik.kumar.73997/"
+
+[params.contact]
+  email = ""
+  text= ""
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Post"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
