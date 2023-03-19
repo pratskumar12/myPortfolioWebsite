@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://stellar-conkies-5118de.netlify.app/"
 languageCode = "en-us"
 title = "HOME"
 theme = "personal-web"
