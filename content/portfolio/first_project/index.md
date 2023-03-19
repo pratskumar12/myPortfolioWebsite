@@ -4,7 +4,7 @@ description: This is the description of our sample project
 date: "2019-05-02T19:47:09+02:00"
 jobDate: 2023
 work: [fundraising]
-thumbnail: sample-project/aa.jpeg
+thumbnail: first_project/aa.jpeg
 ---
 Below I describe the work put in as part of developing a fundraising strategy for our client - Activate Action. The project was part of my engagement with Impact Consulting- a platfrom , offering pro bono consulting services to NGOs and Social enterprises.
 
@@ -29,6 +29,6 @@ The team consists of young people aged 18 to 34 years old including high school 
  ### User Persona
 
 
-![User personas](/portfolio/sample-project/users.jpeg )
+![User personas](/portfolio/first_project/users.jpeg )
 
  
